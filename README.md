@@ -1,3 +1,3 @@
-# Kokoa Clone 2020 Update
+# Hello,world
 
-HTML & CSS are so much fun!
+MY name is jonghak.kim
