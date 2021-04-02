@@ -1,0 +1,75 @@
+.user-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 13px;
+  margin-bottom: 0px;
+}
+
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 35%;
+  margin-bottom: 15px;
+}
+
+.user-component__title {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: black;
+}
+.user-component__subtitle {
+  margin: 5px;
+  margin-left: 7px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  font-weight: 1000;
+}
+.user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-component__column__time {
+  margin-bottom: 8px;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 13px;
+}
+.user-component__column__message {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: white;
+  font-size: 13px;
+  margin-left: 15px;
+}
+.user-component__text {
+  margin-left: 5px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.user-component__last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  border-radius: 50%;
+  color: red;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  right: -16px;
+  bottom: 15px;
+  font-size: 13px;
+}

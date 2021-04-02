@@ -1,0 +1,26 @@
+.first-bar {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
+}
+.first-bar_wifi {
+  width: 33%;
+}
+.first-bar_wifi:first-child span {
+  margin-right: 5px;
+}
+.first-bar_wifi:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.first-bar_wifi:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.first-bar_wifi .fa-battery-full {
+  margin: 0px 5px;
+}

@@ -1,0 +1,51 @@
+.Welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Welcome-header_title {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.Welcome-header_text {
+  width: 80%;
+  opacity: 0.6;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+#login-form input {
+  padding: 15px 0px;
+
+  border: none;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.5s ease-in-out;
+}
+
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+#login-form input:focus {
+  border-color: var(--yellow);
+}
+#login-form input[type="submit"] {
+  background-color: yellow;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#login-form a {
+  text-align: center;
+  color: inherit;
+  font-size: 15px;
+}

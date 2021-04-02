@@ -1,0 +1,48 @@
+.icon-row__secons {
+  display: flex;
+  align-items: center;
+  margin: 0px 20px;
+}
+.icon-row__secons .icon-row__icon:last-child {
+  margin-left: 45px;
+}
+.icon-redpoint {
+  width: 7px;
+  height: 7px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}
+.more-suggestions {
+  margin: 0px 20px;
+}
+.more-suggestions__title {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 0px;
+}
+
+.more-suggestions__icons-image {
+  display: flex;
+}
+.more-suggestions__icons-image .more-suggestions__icons {
+  margin-right: 17px;
+}
+
+.more-suggestions__image i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  width: 60px;
+  height: 60px;
+  border-radius: 20%;
+  font-size: 25px;
+  color: violet;
+}
+.more-suggestions__image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
