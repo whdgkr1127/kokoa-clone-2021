@@ -1,0 +1,225 @@
+@import "reset1.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Staatliches&display=swap");
+body {
+  color: white;
+  height: 100vh;
+  background-color: black;
+}
+
+.status-bar {
+  width: 100%;
+  height: 100px;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.status-bar__colunm {
+  width: 33%;
+}
+.status-bar__colunm:first-child {
+  margin-left: 20px;
+}
+.status-bar__colunm:nth-child(2) {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.status-bar__colunm:last-child {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.search input {
+  width: 82%;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px;
+  border-radius: 30px;
+  padding: 20px 30px;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  border: none;
+  font-size: 15px;
+}
+.search input:focus {
+  outline: none;
+}
+.search span,
+.search i {
+  color: rgba(0, 0, 0, 0.3);
+}
+.search i {
+  position: absolute;
+  right: 40px;
+  top: 120px;
+}
+.first-title {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.first-movie__box {
+  display: flex;
+  align-items: center;
+  margin: 20px 50px;
+}
+.first-movie__box img {
+  border-radius: 10px;
+}
+.movie-info {
+  margin-left: 25px;
+}
+.movie-info h3,
+.movie-info h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.Evaluation-star {
+  color: #fae100;
+}
+.Evaluation-star span {
+  margin-left: 15px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.Evaluation {
+  display: flex;
+  margin-top: 20px;
+}
+.Evaluation div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 11px 9px;
+  background-color: rgba(216, 225, 235, 0.3);
+}
+
+.Evaluation .fa-thumbs-up:hover {
+  color: blue;
+  animation: thumbsScale 1s ease-in-out forwards;
+}
+.Evaluation .fa-thumbs-down:hover {
+  color: crimson;
+  animation: thumbsScale 1s ease-in-out forwards;
+}
+@keyframes thumbsScale {
+  from {
+    transform: none;
+  }
+  to {
+    transform: scale(2, 2);
+  }
+}
+.ViewNow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.ViewNow .fa-share-square {
+  border-radius: 50%;
+}
+.ViewNow span {
+  background-color: white;
+  color: black;
+  padding: 13px;
+  border-radius: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.middle-title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.middle-movie__box {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0px 50px;
+  margin-bottom: 30px;
+}
+.middle-movie__box h4 {
+  margin-bottom: 20px;
+}
+.middle-movie__box img {
+  width: 110px;
+  height: 160px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.middle-movie__box img:hover {
+  animation: movieScale 1s ease-in-out forwards;
+}
+@keyframes movieScale {
+  from {
+    transform: none;
+  }
+  to {
+    transform: scale(2, 2);
+  }
+}
+.middle-movie__box h4 {
+  margin-top: 10px;
+}
+.middle-movie__box h4,
+.middle-movie__box h5 {
+  font-size: 17px;
+  font-family: "Lato", sans-serif;
+}
+.last-title {
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.last-movie__box {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0px 50px;
+}
+.last-movie__box img {
+  width: 150px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.last-movie__box div {
+  width: 65%;
+}
+.last-movie__box p {
+  color: rgba(250, 246, 246, 0.5);
+}
+.movie-director__info span {
+  display: block;
+  margin-bottom: 30px;
+}
+.no-full__screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  width: 100vw;
+  height: 100vh;
+  background-color: turquoise;
+  position: absolute;
+  top: 0;
+}
+
+@media screen and (max-width: 610px) {
+  .no-full__screen {
+    display: none;
+  }
+}
