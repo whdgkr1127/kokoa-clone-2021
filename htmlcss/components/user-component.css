@@ -1,9 +1,14 @@
+.chats-screen .user-component {
+  margin: 30px 15px;
+}
+.friends-screen .user-component {
+  margin-bottom: 25px;
+}
 .user-component {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 15px;
-  margin-bottom: 0px;
+  margin: 10px 10px;
   padding: 0px 5px;
   border-radius: 20px;
 }

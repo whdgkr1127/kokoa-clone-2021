@@ -34,12 +34,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: yellow;
+  background-color: blueviolet;
   width: 60px;
   height: 60px;
   border-radius: 20%;
   font-size: 25px;
-  color: violet;
+  color: aquamarine;
 }
 .more-suggestions__image {
   display: flex;

@@ -6,36 +6,38 @@
   align-items: center;
   margin-bottom: 30px;
 }
-/* .fa-music {
-  padding: 0px 20px;
-} */
-.fa-search {
-  padding-right: 17px;
+.second-bar__icons i {
+  margin-left: 20px;
+}
+.second-bar__icons i:hover {
+  color: aqua;
 }
 
-.fa-cog {
-  padding-left: 17px;
-  color: black;
-}
 .fa-cog:hover {
-  animation: rotateCog 1s ease-in-out infinite;
+  color: aqua;
+  animation: rotateCog 0.5s ease-in-out infinite;
 }
 @keyframes rotateCog {
-  from {
-    transform: none;
+  0% {
+    transform: rotate(0);
   }
-  to {
-    transform: rotateZ(360deg);
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 .second-bar__title {
   font-size: 30px;
   font-weight: 1000;
 }
-.fa-comment-dots {
-  margin-right: 15px;
-}
-
 .find-bar {
   position: relative;
 }

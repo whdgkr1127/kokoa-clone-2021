@@ -17,12 +17,15 @@
 @import "../screen/more.css";
 @import "../screen/settings.css";
 @import "../screen/chat.css";
+@import "../screen/chats.css";
 
 body {
   font-family: "Open Sans", sans-serif;
   /* height: 200vh; */
   width: 100%;
+  background-color: whitesmoke;
 }
+
 .main-screen {
   padding: 0px 20px;
 }

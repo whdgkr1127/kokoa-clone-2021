@@ -19,6 +19,9 @@
 .icon-row__icon i {
   margin: 20px 0px;
 }
+.icon-row__icon i:hover {
+  color: aqua;
+}
 .icon-row__icon span {
   margin-bottom: 25px;
 }
