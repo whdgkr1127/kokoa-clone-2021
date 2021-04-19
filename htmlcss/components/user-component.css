@@ -4,6 +4,14 @@
 .friends-screen .user-component {
   margin-bottom: 25px;
 }
+.more-user__component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+  padding: 0px 5px;
+  border-radius: 20px;
+}
 .user-component {
   display: flex;
   justify-content: space-between;
