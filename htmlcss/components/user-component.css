@@ -2,8 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 13px;
+  margin: 10px 15px;
   margin-bottom: 0px;
+  padding: 0px 5px;
+  border-radius: 20px;
 }
 
 .user-component__column:first-child {
@@ -14,7 +16,6 @@
   width: 70px;
   height: 70px;
   border-radius: 35%;
-  margin-bottom: 15px;
 }
 
 .user-component__title {
@@ -55,7 +56,6 @@
 }
 .user-component__text {
   margin-left: 5px;
-  padding-bottom: 10px;
   position: relative;
 }
 

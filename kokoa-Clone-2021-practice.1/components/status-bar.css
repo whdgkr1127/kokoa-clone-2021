@@ -1,0 +1,30 @@
+.status-bar__box {
+  background-color: rgba(7, 7, 7, 0.8);
+  color: white;
+  padding: 30px;
+}
+.status-bar {
+  display: flex;
+  justify-content: center;
+}
+.status-bar i {
+  width: 48%;
+}
+.status-bar i:active {
+  color: rgb(91, 91, 248);
+}
+.status-bar .fa-search,
+.status-bar .fa-ellipsis-v {
+  display: flex;
+  justify-content: flex-end;
+}
+.playlist-box .status-bar__box {
+  color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.playmusic-box .status-bar {
+  background-color: white;
+  padding: 30px 30px;
+  border-radius: 30px;
+}

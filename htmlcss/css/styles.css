@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import "variables.css";
+@import "reset.css";
+/* components */
+@import "../components/first-bar.css";
+@import "../components/nav-bar.css";
+@import "../components/second-bar.css";
+@import "../components/alt-second-bar.css";
+@import "../components/user-component.css";
+@import "../components/channel-component.css";
+@import "../components/icon-row.css";
+@import "../components/no-mobile.css";
+/* screen */
+@import "../screen/login.css";
+@import "../screen/friends.css";
+@import "../screen/find-icons.css";
+@import "../screen/more.css";
+@import "../screen/settings.css";
+@import "../screen/chat.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* height: 200vh; */
+  width: 100%;
+}
+.main-screen {
+  padding: 0px 20px;
+}
