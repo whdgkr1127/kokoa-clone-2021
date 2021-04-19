@@ -8,25 +8,11 @@
   color: rgba(0, 0, 0, 0.6);
   font-size: 16px;
 }
-.find-recommended__friends {
-  margin: 20px 0px;
-}
-.find-recommended__friends img {
-  width: 50px;
-  height: 50px;
-}
-.find-recommended__friends .find-add__friend {
-  border: 1px solid black;
-  border-radius: 10px;
-  padding: 5px;
-}
-.find-recommended__friends .find-add__friend:hover {
-  color: deeppink;
-  border: 1px solid deeppink;
-}
-.find-recommended__friends:hover {
-  animation: none;
-  box-shadow: none;
+.recommended-friends span {
+  display: block;
+  margin: 100px 75px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
 }
 .open-chat__header {
   display: flex;

@@ -9,29 +9,8 @@
   display: flex;
   align-items: center;
 }
-.settings__setting:nth-child(3) {
-  border-bottom: 1px solid black;
-  padding-bottom: 30px;
-}
-.settings__setting:last-child span {
-  margin-right: 8px;
-}
-.settings__setting:last-child .new-point {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: tomato;
-  color: white;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  font-size: 10px;
-}
 .settings__setting i {
   font-size: 20px;
-}
-.settings__setting span:hover {
-  color: blueviolet;
 }
 .settings__setting span {
   margin-left: 18px;

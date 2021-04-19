@@ -6,8 +6,6 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
-  background-color: whitesmoke;
-  z-index: 99;
 }
 .first-bar_wifi {
   width: 33%;
